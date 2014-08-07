@@ -1,0 +1,3 @@
+[submodule "gwt-d3"]
+	path = gwt-d3
+	url = https://github.com/BiovistaInc/gwt-d3.git
