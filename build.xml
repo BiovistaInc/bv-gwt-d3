@@ -2,6 +2,7 @@
 <!-- Automatically created by ../biovista-lib/scripts/update-build-xml.sh. Do not edit -->
 <project basedir="." default="build" name="bv-gwt-d3">
 	<property name="src_dir" value="./gwt-d3/gwt-d3-api/src/main/java"/>
+	<property name="src_basedirs" value="./gwt-d3/gwt-d3-api/src/main/java"/>
 	<property name="build_dir" value="build"/>
 	<property name="excluded" value=" ${excludes}"/>
 	<import file="../biovista-lib/build-lib.xml" />
@@ -24,6 +25,6 @@
 
 	<target name="build-project" depends="init">
 		<echo message="${ant.project.name}: ${ant.file}"/>
-		<javac debug="true" debuglevel="${debuglevel}" srcdir="${src_dir}" destdir="${build_dir}" excludes="${excluded}" classpathref="bv-gwt-d3.classpath" includeantruntime="false" source="${source}" target="${target}"/>
+		<javac debug="true" debuglevel="${debuglevel}" srcdir="./gwt-d3/gwt-d3-api/src/main/java" destdir="${build_dir}" excludes="${excluded}" classpathref="bv-gwt-d3.classpath" includeantruntime="false" source="${source}" target="${target}"/>
 	</target>
 </project>
