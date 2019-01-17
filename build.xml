@@ -10,7 +10,6 @@
 
 	<path id="bv-gwt-d3.classpath">
 		<pathelement location="${build_dir}"/>
-		<path refid="gwt-sdk.userclasspath"/>
 	</path>
 
 	<path id="bv-gwt-d3.srcpath">
